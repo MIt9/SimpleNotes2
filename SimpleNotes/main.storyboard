@@ -17,7 +17,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zpm-Ye-sVn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752" y="-135"/>
+            <point key="canvasLocation" x="652" y="-135"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsg-md-1yY">
@@ -38,11 +38,6 @@
             <point key="canvasLocation" x="226" y="-135"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="PSRMasterViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PSRMasterViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
