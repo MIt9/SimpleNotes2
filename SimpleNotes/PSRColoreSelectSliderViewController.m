@@ -7,10 +7,8 @@
 //
 
 #import "PSRColoreSelectSliderViewController.h"
+#import "PSRColoreSelectSliderView.h"
 
 @implementation PSRColoreSelectSliderViewController
--(void)viewDidLoad{
-    
-    [super viewDidLoad];
-}
+
 @end

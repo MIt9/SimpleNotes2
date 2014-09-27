@@ -9,13 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @class PSRColoreSelectSliderViewController;
+
 @protocol PSRColoreSelectSliderViewControllerDelegate <NSObject>
 
 -(void)psr_colorSelectViewControler:(PSRColoreSelectSliderViewController *) controller didFinishWithColor:(UIColor *)color;
 
 @end
 
+@class PSRColoreSelectSliderView;
+
 @interface PSRColoreSelectSliderViewController: UIViewController
+@property (nonatomic,weak) IBOutlet PSRColoreSelectSliderView *colorSlider;
 @property (nonatomic, strong) UIColor *SelectedColor;
 @property (nonatomic, weak) id <PSRColoreSelectSliderViewControllerDelegate> delegate;
 
