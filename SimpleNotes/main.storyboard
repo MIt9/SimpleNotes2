@@ -19,15 +19,15 @@
             </objects>
             <point key="canvasLocation" x="526" y="-135"/>
         </scene>
-        <!--View Controller-->
+        <!--Colore Select Slider View Controller-->
         <scene sceneID="hvB-tM-2LX">
             <objects>
-                <viewController id="X8R-Ph-scw" sceneMemberID="viewController">
+                <viewController id="X8R-Ph-scw" customClass="PSRColoreSelectSliderViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2v-gI-vAk">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HVs-0P-apd" userLabel="sliderHolder">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HVs-0P-apd" userLabel="sliderHolder" customClass="PSRColoreSelectSliderView">
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zE5-7O-3kf" userLabel="redSlider">
                                         <color key="minimumTrackTintColor" red="1" green="0.1198356866236765" blue="0.041220840364772693" alpha="1" colorSpace="calibratedRGB"/>
@@ -101,6 +101,17 @@
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PSRColoreSelectSliderView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PSRColoreSelectSliderView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="blueSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="greenSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="redSlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+        <class className="PSRColoreSelectSliderViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PSRColoreSelectSliderViewController.h"/>
         </class>
         <class className="PSRMasterViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PSRMasterViewController.h"/>

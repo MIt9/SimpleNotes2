@@ -25,6 +25,8 @@
 		1F42EFEB190989DC00B91F5B /* PSRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F42EFEA190989DC00B91F5B /* PSRDetailViewController.m */; };
 		1F876B9D19165105009DA0BB /* yoda.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F876B9C19165105009DA0BB /* yoda.png */; };
 		30EB7FB419D6F7EB0093795D /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EB7FB319D6F7EB0093795D /* main.storyboard */; };
+		30EC2AF919D74ED900F6600F /* PSRColoreSelectSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EC2AF819D74ED900F6600F /* PSRColoreSelectSliderView.m */; };
+		30EC2AFC19D7505300F6600F /* PSRColoreSelectSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EC2AFB19D7505300F6600F /* PSRColoreSelectSliderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		1F42EFEA190989DC00B91F5B /* PSRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRDetailViewController.m; sourceTree = "<group>"; };
 		1F876B9C19165105009DA0BB /* yoda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoda.png; sourceTree = "<group>"; };
 		30EB7FB319D6F7EB0093795D /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		30EC2AF719D74ED900F6600F /* PSRColoreSelectSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRColoreSelectSliderView.h; sourceTree = "<group>"; };
+		30EC2AF819D74ED900F6600F /* PSRColoreSelectSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRColoreSelectSliderView.m; sourceTree = "<group>"; };
+		30EC2AFA19D7505300F6600F /* PSRColoreSelectSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRColoreSelectSliderViewController.h; sourceTree = "<group>"; };
+		30EC2AFB19D7505300F6600F /* PSRColoreSelectSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRColoreSelectSliderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +135,11 @@
 				1F42EFE719097ED100B91F5B /* PSRMasterViewController.m */,
 				30EB7FB319D6F7EB0093795D /* main.storyboard */,
 				1F42EFE9190989DC00B91F5B /* PSRDetailViewController.h */,
+				30EC2AF719D74ED900F6600F /* PSRColoreSelectSliderView.h */,
+				30EC2AF819D74ED900F6600F /* PSRColoreSelectSliderView.m */,
 				1F42EFEA190989DC00B91F5B /* PSRDetailViewController.m */,
+				30EC2AFA19D7505300F6600F /* PSRColoreSelectSliderViewController.h */,
+				30EC2AFB19D7505300F6600F /* PSRColoreSelectSliderViewController.m */,
 				1F876B9C19165105009DA0BB /* yoda.png */,
 				1F42EFE5190978EC00B91F5B /* Model */,
 				1F42EFC2190978A700B91F5B /* Images.xcassets */,
@@ -282,6 +292,8 @@
 				1F42EFEB190989DC00B91F5B /* PSRDetailViewController.m in Sources */,
 				1F42EFE819097ED100B91F5B /* PSRMasterViewController.m in Sources */,
 				1F42EFBD190978A700B91F5B /* main.m in Sources */,
+				30EC2AF919D74ED900F6600F /* PSRColoreSelectSliderView.m in Sources */,
+				30EC2AFC19D7505300F6600F /* PSRColoreSelectSliderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
