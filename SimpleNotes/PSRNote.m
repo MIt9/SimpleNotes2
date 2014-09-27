@@ -17,7 +17,7 @@
         self.text = @"New note";
         self.date = [NSDate date];
         self.color = [UIColor blackColor];
-        self.font = @"some";
+        self.font = @"AmericanTypewriter";
     }
     
     return self;
