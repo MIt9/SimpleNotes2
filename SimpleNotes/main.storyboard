@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Master View Controller-->
         <scene sceneID="1nI-iR-gSL">
             <objects>
-                <viewController id="gAC-MR-m7K" sceneMemberID="viewController">
+                <viewController id="gAC-MR-m7K" customClass="PSRMasterViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zdf-yY-prp">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,6 +38,11 @@
             <point key="canvasLocation" x="226" y="-135"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="PSRMasterViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PSRMasterViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
