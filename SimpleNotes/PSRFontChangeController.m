@@ -1,19 +1,19 @@
 //
-//  PSRColoreSelectSliderViewController.m
+//  PSRFontChangeController.m
 //  SimpleNotes
 //
 //  Created by dimaBii on 9/28/14.
 //  Copyright (c) 2014 Daniil Korotin. All rights reserved.
 //
 
-#import "PSRColoreSelectSliderViewController.h"
+#import "PSRFontChangeController.h"
 
-@interface PSRColoreSelectSliderViewController ()
+@interface PSRFontChangeController ()
 
 @end
 
-@implementation PSRColoreSelectSliderViewController
-/*
+@implementation PSRFontChangeController
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,7 +22,7 @@
     }
     return self;
 }
-*/
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

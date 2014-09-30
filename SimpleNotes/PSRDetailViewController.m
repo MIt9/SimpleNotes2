@@ -13,7 +13,7 @@
 @end
 
 @implementation PSRDetailViewController
-
+//@synthesize colorViewController;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -31,7 +31,7 @@
     UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancel)];
         
     UIBarButtonItem *colorChangeButton = [[UIBarButtonItem alloc]init];
-    colorChangeButton.action = @selector(doTheThing);
+    colorChangeButton.action = @selector(changeColor);
     colorChangeButton.title = @"Color";
     colorChangeButton.target = self;
     
@@ -52,6 +52,20 @@
     NSLog(@"Doing the thing");
     
 }
+
+- (IBAction)changeColor {
+
+    PSRColoreSelectSliderViewController *colorChangerView = [[PSRColoreSelectSliderViewController alloc]initWithNibName:@"colorChangerView" bundle:nil];
+    
+    [self.navigationController pushViewController:colorChangerView animated:YES];
+    
+ //   colorChangerView = [self.storyboard instantiateViewControllerWithIdentifier:@"colorChangerView"];
+ //   [self.navigationController presentViewController:colorChangerView animated:YES completion:nil];
+    
+ //   [self presentViewController:colorChangerView animated:YES completion:nil];
+    
+}
+
 - (void)viewWillDisappear:(BOOL)animated {
     self.note.text = self.textView.text;
 }
